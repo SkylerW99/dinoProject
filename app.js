@@ -21,15 +21,15 @@
     const tyran = new Dino (dinoData[1].species, dinoData[1].weight,dinoData[1].height,
             dinoData[1].diet, dinoData[1].where,dinoData[1].when,dinoData[1].fact,'images/tyrannosaurus rex.png');
     const ankly = new Dino (dinoData[2].species, dinoData[2].weight,dinoData[2].height,
-            dinoData[2].diet, dinoData[2].where,dinoData[2].when,dinoData[2].fact,'images/tyrannosaurus rex.png');
+            dinoData[2].diet, dinoData[2].where,dinoData[2].when,dinoData[2].fact,'images/anklyosaurus.png');
     const brach = new Dino (dinoData[3].species, dinoData[3].weight,dinoData[3].height,
-            dinoData[3].diet, dinoData[3].where,dinoData[3].when,dinoData[3].fact,'images/tyrannosaurus rex.png');
+            dinoData[3].diet, dinoData[3].where,dinoData[3].when,dinoData[3].fact,'images/brachiosaurus.png');
     const stego = new Dino (dinoData[4].species, dinoData[4].weight,dinoData[4].height,
-            dinoData[3].diet, dinoData[4].where,dinoData[4].when,dinoData[4].fact,'images/tyrannosaurus rex.png');
+            dinoData[3].diet, dinoData[4].where,dinoData[4].when,dinoData[4].fact,'images/stegosaurus.png');
     const elasm = new Dino (dinoData[5].species, dinoData[5].weight,dinoData[5].height,
-            dinoData[5].diet, dinoData[5].where,dinoData[5].when,dinoData[5].fact,'images/tyrannosaurus rex.png');  
+            dinoData[5].diet, dinoData[5].where,dinoData[5].when,dinoData[5].fact,'images/elasmosaurus.png');  
     const ptera = new Dino (dinoData[6].species, dinoData[6].weight,dinoData[6].height,
-            dinoData[6].diet, dinoData[6].where,dinoData[6].when,dinoData[6].fact,'images/tyrannosaurus rex.png');
+            dinoData[6].diet, dinoData[6].where,dinoData[6].when,dinoData[6].fact,'images/pteranodon.png');
     const pigeon = new Dino (dinoData[7].species, dinoData[7].weight,dinoData[7].height,
         dinoData[7].diet, dinoData[7].where,dinoData[7].when,dinoData[7].fact,'images/pigeon.png');
  

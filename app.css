@@ -2,21 +2,22 @@
 body {
     background: rgb(111, 208, 224);
     background: linear-gradient(0deg,rgb(111, 208, 224) 0%, rgb(171, 228, 167) 100%);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubic', sans-serif;
     text-align: center;
     min-height: 100vh;
+    font-weight: 400;
 }
 
 h1 {
     margin: 0;
-    font-family: 'Frijole', cursive;
-    font-size: 3em;
-    font-weight: 400;
+    font-family: 'Martian Mono', monospace;
+    font-weight: 600;
 }
 
 h2,
 h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 @media (min-width: 650px) {
@@ -32,7 +33,8 @@ h3 {
 }
 
 p {
-    font-weight: 100;
+    font-family: 'Rubic', sans-serif;
+    font-weight: 300;
 }
 
 /* Grid Styles */
@@ -119,6 +121,7 @@ p {
 /* Form Styles */
 .form-container {
     background: #eee;
+    border-radius: 10px;
     padding: 1.3em;
     text-align: left;
     max-width: 400px;
@@ -128,12 +131,12 @@ p {
 form p {
     margin-bottom: 0.3em;
     font-size: 1.3em;
-    font-weight: 600;
-    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
 }
 
 input {
     padding: 0.7em;
+    border-radius: 5px;
     background: #fff;
     border: 0;
 }
@@ -156,6 +159,7 @@ select {
 #btn {
     display: inline-block;
     background: #ccc;
+    border-radius:10px;
     padding: 0.8em;
     margin: 1.2em auto;
     transition: ease 0.3s all;
