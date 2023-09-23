@@ -153,7 +153,7 @@
   
 
 //fetch JSON data
-fetch('dino.json')
+fetch('https://raw.githubusercontent.com/SkylerW99/dinoProject/master/dino.json')
 .then(response => response.json())
 .then(data=>{
     dinoData = data.Dinos;
@@ -218,7 +218,7 @@ btn.addEventListener('click',(e) => {
         gridItem.appendChild(name);
     
         const img = document.createElement('img');
-        img.src = d.src;;
+        img.src = d.src;
         gridItem.appendChild(img);
     
         const info = document.createElement('p');
